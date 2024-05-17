@@ -1,20 +1,25 @@
 .dropdown{
-float: right;
+float:right;
 font-size: 16px;
-color: blue;
+color: #6B7A40;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 overflow: hidden;
+font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 .dropdown .dropbtn{
     font-size: 16px;
     border: none;
     outline: none;
-    color:blue;
+    color: #6B7A40;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
+    font-size: 24px;
     margin: 0;
 }
 .dropdown:hover .dropbtn{
@@ -43,5 +48,107 @@ overflow: hidden;
 }
 #community{
     height: auto;
-    max-width: 100%;
+    max-width: 1000px;
+    padding: 5px;
+}
+.column{
+    float: left;
+    width: 25%;
+    height: min-content;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col{
+    float: left;
+    height: max-content;
+    width: 50%;
+    padding: 2px;
+}
+.col img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+header{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding: 10px;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+}
+p{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    max-width: 800px;
+    padding: 5px;
+}
+h2{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    padding: 5px;
+}
+h3{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    padding: 5px;
+}
+h4{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    padding: 5px;
+}
+body{
+    background-color: #F3EDE0;
+}
+header{
+    color: #6B7A40;
+}
+#socials{
+    width: 70px;
+}
+#footerbutton{
+    background-color: inherit;
+    border: none;
+}
+#footerbutton:hover{
+    background-color: #eadcce;
+}
+footer{
+    background-color: #F3EDE0;
+}
+#logo{
+    float: left;
+    padding: 7px;
+}
+div{
+    box-sizing:border-box;
+}
+#art-wall{
+    width: 1000px;
 }
