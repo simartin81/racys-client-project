@@ -10,6 +10,7 @@ font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+margin: auto;
 }
 .dropdown .dropbtn{
     font-size: 16px;
@@ -48,13 +49,13 @@ font-family: "Bebas Neue", sans-serif;
 }
 #community{
     height: auto;
-    max-width: 1000px;
+    max-width: 100%;
     padding: 5px;
 }
 .column{
     float: left;
     width: 25%;
-    height: min-content;
+    height: max-content;
 }
 .row:after{
     content: "";
@@ -66,10 +67,10 @@ font-family: "Bebas Neue", sans-serif;
     height: max-content;
     width: 50%;
     padding: 2px;
+    vertical-align: top;
 }
 .col img{
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
     height: auto;
 }
@@ -88,7 +89,6 @@ h1{
 }
 p{
     font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -98,7 +98,6 @@ p{
 }
 h2{
     font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -107,7 +106,6 @@ h2{
 }
 h3{
     font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-variation-settings:
@@ -116,7 +114,6 @@ h3{
 }
 h4{
     font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -132,15 +129,17 @@ header{
 #socials{
     width: 70px;
 }
-#footerbutton{
-    background-color: inherit;
-    border: none;
-}
-#footerbutton:hover{
-    background-color: #eadcce;
+#socials2{
+    width: 70px;
 }
 footer{
     background-color: #F3EDE0;
+}
+#socials:hover{
+    background-color: white;
+}
+#socials2:hover{
+    background-color: white;
 }
 #logo{
     float: left;
@@ -151,4 +150,18 @@ div{
 }
 #art-wall{
     width: 1000px;
+}
+main{
+    margin: 25px 50px 75px ;
+}
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 18px;
+      width: 100%;
+      margin: auto;
+    }
+  }
+img{
+    max-width: 100%;
+    height: auto;
 }
